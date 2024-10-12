@@ -7,6 +7,10 @@ Here I am exploring how to create a custom Web API just like how Javascript brow
 > One thing to note is that it will be limited to your JavaScript environment and won’t be exactly like the built-in JavaScript **Web APIs** (e.g., `fetch`, `localStorage`, etc.).
 >
 > You can, however, create custom APIs that provide specific functionality for your web application by leveraging **JavaScript classes**, **modules**, and **event-driven programming**.
+> 
+> You can’t add new global Web APIs to the browser environment like those built into JavaScript, but you can absolutely create custom JavaScript APIs for your applications. By leveraging classes, modules, and event-driven programming, you can mimic the behavior of native Web APIs and create reusable, modular pieces of functionality tailored to your needs.
+>
+> Creating native Web APIs just like `localStorage` and `fetch` requires you to modify the Javascript runtime which is essentially a browser.
 
 ### Steps to Create Your Own Web API
 
@@ -141,5 +145,3 @@ Just like official Web APIs, it’s a good practice to document how to use your 
 - **Browser Limitations**: Your custom Web API will only exist in the context of your application. It won’t be available globally across the browser or to other websites.
 - **Performance**: Be mindful of performance and memory usage, especially if your API involves timers, event listeners, or heavy computations.
 
-### Conclusion
-While you can’t add new global Web APIs to the browser environment like those built into JavaScript, you can absolutely create custom JavaScript APIs for your applications. By leveraging classes, modules, and event-driven programming, you can mimic the behavior of native Web APIs and create reusable, modular pieces of functionality tailored to your needs.
